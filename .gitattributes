@@ -1,0 +1,2 @@
+*.pbrt filter=lfs diff=lfs merge=lfs -text
+**/*.pbrt filter=lfs diff=lfs merge=lfs -text
