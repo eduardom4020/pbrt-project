@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN mkdir /app/build
+RUN mkdir /app && mkdir /app/build
 
 RUN apt-get update -yq && apt-get install -yq \
     build-essential \
